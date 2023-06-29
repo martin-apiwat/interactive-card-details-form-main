@@ -1,0 +1,15 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+
+.container > input {
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+.container > label {
+   text-transform: uppercase;
+}
